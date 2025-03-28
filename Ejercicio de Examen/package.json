@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio_examen",
+  "version": "1.0.0",
+  "description": "proyecto node para practicar",
+  "license": "ISC",
+  "author": "Pablo Cáceres",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "yargs": "^17.7.2"
+  }
+}
