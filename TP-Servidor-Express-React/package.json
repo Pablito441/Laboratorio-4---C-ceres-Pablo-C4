@@ -1,0 +1,19 @@
+{
+  "name": "servidor_con_express",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "pablokcres",
+  "license": "ISC",
+  "description": "Este es un proyecto con el afan de aprender a crear y robar proyectos de sergiecode",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
