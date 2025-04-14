@@ -1,0 +1,23 @@
+{
+  "name": "practica",
+  "version": "1.0.0",
+  "description": "proyecto node para practicar",
+  "license": "ISC",
+  "author": "Pablo Cáceres",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0",
+    "yargs": "^17.7.2"
+  }
+}
